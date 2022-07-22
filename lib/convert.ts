@@ -1,4 +1,4 @@
-import { createCanvas, Image } from 'canvas';
+import { createCanvas, Image } from './canvas';
 import { ImageMode, ImageModeUtil, OutputMode } from './enums';
 import { buildPalette, utils, applyPalette, distance, image } from './image-q/image-q';
 import { round_half_up, str_pad, dechex } from './helpers';

@@ -1,5 +1,5 @@
 import { convertImageBlob, isNotRaw, ConverterOptions } from './convert';
-import { Image, loadImage } from 'canvas';
+import { Image, loadImage } from '@napi-rs/canvas';
 import fs from 'fs';
 import path from 'path';
 
