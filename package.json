@@ -15,7 +15,8 @@
   "scripts": {
     "start": "parcel ./web/index.html --open",
     "test": "jest --verbose",
-    "build": "parcel build ./web/index.html ./web/content.html --public-url ./"
+    "build": "parcel build ./web/index.html ./web/content.html --public-url ./",
+    "build-lib": "tsc lib/cli.ts --downlevelIteration --allowSyntheticDefaultImports --outDir out/lib --module commonjs --esModuleInterop --declaration"
   },
   "bin": {
     "lv_img_conv": "lv_img_conv.js"
